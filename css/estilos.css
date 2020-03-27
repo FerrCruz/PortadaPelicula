@@ -1,0 +1,172 @@
+body{
+	/*background:linear-gradient(rgb(35, 97, 196),rgb(81, 148, 255));*/
+	background-image: url("../imagenes/fondo.jpg");
+	font-family: 'Overlock',cursive;
+
+}
+
+header{
+	background-image: url("../imagenes/pelicula3.jpg");
+	height: 647px;
+}
+
+
+section{
+	padding:35px 35px;
+}
+
+main{
+	margin:45px auto;
+	background-color: white;
+	width: 940px;
+}
+
+
+article.primario{
+	background: rgba(125, 244, 65,0.35);
+	padding: 10px;
+	border-radius: 15px;
+	border: 2px solid rgb(139, 232, 142);
+	overflow: auto;
+}
+
+article.primario img{
+	border-radius: 23px;
+}
+
+article.secundario img{
+	 border-radius: 23px;
+	 width:290px;
+	 height:370px;
+	 float: right;
+	 margin-left: 30px;
+	 padding:10px;
+}
+
+article.secundario p{
+ text-align:left;
+ overflow: auto;
+}
+
+article.secundario{
+	background-color: rgba(125, 244, 65,0.35);
+	padding: 10px;
+	border-radius: 15px;
+	border: 2px solid rgb(139, 232, 142);
+	margin-top: 25px;
+	overflow: auto;
+}
+
+footer{
+	background-color: rgb(4, 31, 76);
+	color: white;
+	padding: 20px;
+	width: 900px;
+	margin:45px auto;
+	margin-top:-45px;
+	/*background-color: silver;
+	color: black;
+	padding: 20px;
+	width: 900px;
+	margin:45px auto;
+	margin-top:-45px;*/
+}
+
+h1,h2{
+	font-family: 'Lobster', cursive;
+
+}
+h1{
+	padding: 15px;
+	display: inline-block;
+	color:rgb(160, 196, 255);
+    background-color: rgba(81, 148, 255,0.3);
+ 	position: relative;
+    top: 480px;
+}
+
+textarea.mensaje{
+	width: 600px;
+	height: 120px;
+}
+
+aside{
+
+	width: 635px;
+	height: 300px;
+	margin-top: 30px;
+}
+
+
+form{
+	background-color: silver;
+	border-radius: 15px;
+	height: 235px;
+	padding:10px;
+}
+input.boton{
+	float: right;
+	background-color: rgb(53, 54, 58);
+	padding: 11px;
+	border-radius: 7px;
+	color:white;
+	text-decoration: none;
+	display: inline-block;
+}
+
+input.boton:hover{
+	background-color:rgb(72, 81, 96);
+	cursor: pointer;
+}
+
+iframe{
+	width:100%;
+}
+
+
+article.trailerpel{
+	margin-top: 100px;
+}
+
+table{
+	border-collapse: collapse;
+	margin:0px auto;
+	text-align: center;
+}
+
+td,th,caption{
+	border: 1px solid black;
+	padding: 8px;
+}
+
+caption{
+	background-color:rgba(35, 97, 196,0.5);
+}
+
+th{
+	background-color: skyblue;
+}
+
+td{
+	background-color: rgb(196, 218, 252);
+
+}
+
+a{
+	background-color: rgb(53, 54, 58);
+	padding: 11px;
+	border-radius: 7px;
+	color:white;
+	text-decoration: none;
+	display: inline-block;
+
+}
+
+a:hover{
+	background-color: rgb(72, 81, 96);
+}
+
+h2{
+	text-decoration: underline;
+}
+
